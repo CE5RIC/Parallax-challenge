@@ -83,6 +83,7 @@ header {
 
 
 
+
 .bg,
 .distant-clouds,
 .clouds,
@@ -98,4 +99,6 @@ header {
 }
 
 
-
+#harrypotter {
+    position: absolute;
+}
