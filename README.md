@@ -21,9 +21,11 @@ I've been wanting to switch up my IDE for a couple of weeks now and today is the
 — Albus Dumbledore, Harry Potter and the Goblet of Fire, Chapter 37
 
 
+
 ![phpstorm](/img/phpstorm.png)
 
-
+`
+`
 
 ### Chapter 2: Hogwarts under construction
 
