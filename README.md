@@ -18,7 +18,7 @@ I've been wanting to switch up my IDE for a couple of weeks now and today is the
 — Albus Dumbledore, Harry Potter and the Goblet of Fire, Chapter 37
 
 
-![](/Users/cedricdierckx/git/Parallax-challenge/img/hpbook.jpeg)
+![hpbook](/img/hpbook.jpeg)
 
 
 
@@ -33,4 +33,4 @@ and can see the advantages over visual studio code quite easily. Will have to ke
 to really get more fluid and discover even more things about it.
 
 
-![](/Users/cedricdierckx/git/Parallax-challenge/img/constructworkers.jpeg)
+![construct](/img/constructworkers.jpeg)
