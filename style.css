@@ -2,15 +2,100 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
 }
 
-.parallax {
-    height: 100%;
-    background-image: url("img/hogwarts-3476786_1920.png");
-    min-height: 800px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
+.title {
+    position: absolute;
+    font-family: 'sans-serif';
+    font-size: 6em;
+    color: darkgreen;
+    transform: translateZ(-10px) scale(.8);
+}
+
+
+
+.subtitle {
+    position: absolute;
+    font-family: 'sans-serif';
+    font-size: 3em;
+    color: brown;
+    transform: translateZ(-20px) translateY(-100px) scale(.8);
 
 }
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 80px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -4;
+}
+
+.bg {
+    transform: translateZ(-80px) scale(4);
+}
+
+.distant-clouds {
+    transform: translateZ(-70px) scale(3);
+    top: 10%;
+}
+
+.clouds {
+    transform: translateZ(-60px) scale(2);
+    top: 20%;
+}
+
+.mountains {
+    transform: translateZ(-50px) scale(2);
+    top: 30%;
+}
+
+.bushes {
+    transform: translateZ(-40px) scale(3);
+    top: 40%;
+}
+
+.hill {
+    transform: translateZ(-30px) scale(2.5);
+    top: 50%;
+}
+
+.distant-trees {
+    transform: translateZ(-20px) scale(2);
+    top: 60%;
+}
+
+.ground {
+    transform: translateZ(-10px) scale(1.5);
+    top: 70%;
+}
+
+
+
+.bg,
+.distant-clouds,
+.clouds,
+.mountains,
+.bushes,
+.hill,
+.distant-trees,
+.ground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
