@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 
@@ -102,3 +104,43 @@ header {
 #harrypotter {
     position: absolute;
 }
+
+
+
+body{
+    background: linear-gradient(to bottom right, #0c3ca5 ,#00103d);
+    height:100vh;
+}
+.container{
+    background: linear-gradient(to bottom right, #131e35 ,#3f3a81);
+    height:85vh;
+    width:70vw;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.rain{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("https://cdn.discordapp.com/attachments/744182992037216260/990016273008177242/rain1.png"),
+    url("https://cdn.discordapp.com/attachments/744182992037216260/990016273217900584/rain2.png"),
+    url("https://cdn.discordapp.com/attachments/744182992037216260/990016273456988240/rain3.png");
+
+    animation: snow 1.5s linear  infinite ;
+}
+@keyframes snow {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+
+
+
