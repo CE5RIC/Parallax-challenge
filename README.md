@@ -18,7 +18,19 @@ I've been wanting to switch up my IDE for a couple of weeks now and today is the
 — Albus Dumbledore, Harry Potter and the Goblet of Fire, Chapter 37
 
 
-![](/Users/cedricdierckx/git/Parallax-challenge/img/hpbooks.jpeg)
+![](/Users/cedricdierckx/git/Parallax-challenge/img/hpbook.jpeg)
 
 
 
+## Chapter 2: Hogwarts under construction
+
+Searching for Harry Potter images was quite time absorbing and still not happy with what I found so far.
+Hogwarts is therefore placed in a state of "Under construction". I wanted to start working so I created the parallax 
+functionality with the images provided by the coaches. This saved me some time as these images can be layered
+a lot easier. The images will be altered afterwards, for now we can already spot the flying weasley car.
+My next challenge will be to get this car moving/flying across the screen. Really enjoying PhpStorm so far
+and can see the advantages over visual studio code quite easily. Will have to keep working with it in future projects
+to really get more fluid and discover even more things about it.
+
+
+![](/Users/cedricdierckx/git/Parallax-challenge/img/constructworkers.jpeg)
