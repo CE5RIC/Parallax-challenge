@@ -104,12 +104,26 @@ header {
     position: absolute;
     width: 150px;
     transition: width 2s;
+
 }
+
 
 #harrypotter:hover {
     width: 350px
 }
 
+#harrypotter {
+    position: relative;
+    animation: moveharry 3s linear 1s infinite alternate;
+}
+
+@keyframes moveharry {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:0px; top:200px; width: 300px}
+    75%  {left:200px; top:300px;width: 350px}
+    100% {left:0px; top:0px;}
+}
 
 body{
     background: linear-gradient(to bottom right, #0c3ca5 ,#00103d);
@@ -143,6 +157,11 @@ body{
     100% {
         background-position: 500px 1000px, 400px 400px, 300px 300px;
     }
+}
+
+
+#car {
+    width: 80px;
 }
 
 
