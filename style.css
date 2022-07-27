@@ -85,7 +85,6 @@ header {
 
 
 
-
 .bg,
 .distant-clouds,
 .clouds,
@@ -103,8 +102,13 @@ header {
 
 #harrypotter {
     position: absolute;
+    width: 100px;
+    transition: width 2s;
 }
 
+#harrypotter:hover {
+    width: 300px
+}
 
 
 body{
